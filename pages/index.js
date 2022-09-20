@@ -10,7 +10,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={'grid grid-cols-6 gap-4 grid-rows-6 w-screen'} style={{ height: '150vh' }}>
+    <div className={'grid grid-cols-6 gap-4 grid-rows-6 w-screen bg-zinc-900 text-white'} style={{ height: '150vh' }}>
       <Head>
         <title>Portfolio</title>
         <meta name='description' content='Portfolio Piotr Klebaniuk' />

@@ -2,6 +2,7 @@
 module.exports = {
   // darkMode: 'class', //dark mode on 'dark' class earlier in the tree
   content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './pages/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     screens: {
       xsm: '320px',
