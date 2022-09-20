@@ -9,7 +9,7 @@ export default function Footer() {
       <p className='mb-3'>klebaniukp@gmail.com</p>
       <p className='mb-3'>klebaniukp</p>
 
-      <div className={styles.flex}>
+      <div className={'flex flex-row justify-center w-screen'} style={{ height: '50px' }}>
         <LinkedIn />
         <GitHub />
         <Twitter />

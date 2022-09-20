@@ -2,14 +2,15 @@ import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import GitHub from './github';
+import { useState } from 'react';
 
 export default function ProjectScreen() {
   const css = { maxWidth: '750px', height: 'auto' };
 
   return (
-    <section>
-      <ul style={{ alignItems: 'start' }} className=''>
-        <li style={{ float: 'left' }}>
+    <section className=''>
+      <ul className='items-start'>
+        <li className='float-left'>
           <Link passHref href='https://chat.piotrklebaniuk.pl'>
             <a target={'_blank'}>
               <Image
@@ -28,7 +29,7 @@ export default function ProjectScreen() {
                 chat
               </a>
             </Link>
-            <GitHub />
+            <GitHub size={'small'} />
             <div className={`${styles.link} ml-1`}>
               <Link passHref href={'https://chat.piotrklebaniuk.pl'}>
                 <a target='blank'>

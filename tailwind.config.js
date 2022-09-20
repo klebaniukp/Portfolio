@@ -9,7 +9,8 @@ module.exports = {
       xsm: { max: '609px' },
       xxsm: { max: '471px' },
       tsm: { max: '430px' }, //turbo small
-      xtsm: { max: '400px' },
+      xtsm: { max: '400px' }, //next checkpoint 350px
+      xxtsm: { max: '350px' }, //next checkpoint x
     },
     extend: {},
   },

@@ -18,7 +18,10 @@ export default function Home() {
       </Head>
       <Header />
       <Projects />
-      <div className='mt-24 text-center col-start-4 col-end-6 row-start-4 row-end-5 xtsm:row-start-3'>
+      <div
+        className={`mt-24 text-center col-start-4 col-end-6 row-start-5 row-end-5 
+      md:row-start-4 xtsm:row-start-3`}
+      >
         <p>More coming soon!</p>
       </div>
       <Footer />

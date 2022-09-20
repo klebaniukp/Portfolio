@@ -21,9 +21,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  padding: 2rem 0;
-
+  /* flex: 1; */
   justify-content: center;
   align-items: center;
 }
@@ -118,6 +116,7 @@
 .flex {
   display: flex;
   flex-direction: row;
+  line-height: 2;
 }
 
 .link {
