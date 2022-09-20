@@ -5,7 +5,11 @@ module.exports = {
   darkMode: 'class',
   theme: {
     screens: {
-      xsm: '320px',
+      md: { max: '768px' },
+      xsm: { max: '609px' },
+      xxsm: { max: '471px' },
+      tsm: { max: '430px' }, //turbo small
+      xtsm: { max: '400px' },
     },
     extend: {},
   },

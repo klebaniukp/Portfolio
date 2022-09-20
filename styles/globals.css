@@ -9,13 +9,13 @@ body {
   font-size: 20px;
   scroll-behavior: smooth;
 }
+
 header {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   width: 100%;
   max-height: 175px;
-}
+} 
 
 a {
   color: inherit;

@@ -4,19 +4,19 @@ import Image from 'next/image';
 import GitHub from './github';
 
 export default function ProjectScreen() {
-  const css = { width: '1000px', height: 'auto' };
+  const css = { maxWidth: '750px', height: 'auto' };
 
   return (
     <section>
-      <ul style={{ alignItems: 'start' }} className='col-start-2 col-end-5 row-start-2 row-end-4 '>
+      <ul style={{ alignItems: 'start' }} className=''>
         <li style={{ float: 'left' }}>
           <Link passHref href='https://chat.piotrklebaniuk.pl'>
             <a target={'_blank'}>
               <Image
                 alt={'profile picture'}
                 src={'/images/chat.png'}
-                width={1000}
-                height={547}
+                width={900}
+                height={492}
                 styles={css}
                 className='w-3/2 h-3/2 cursor-pointer'
               />
