@@ -7,7 +7,7 @@ export default function Header() {
       className={`col-start-2 col-end-8 row-start-1 row-end-1 
     xsm:col-end-9 xxsm:col-start-1 `}
     >
-      <div >
+      <div>
         <Image
           src={'/images/profileswag.png'}
           alt='Profile Image'
