@@ -18,9 +18,8 @@ export default function ProjectScreen() {
                     src={'/images/chat.png'}
                     width={900}
                     height={492}
-                    className=' cursor-pointer'
+                    className='cursor-pointer'
                   />
-                {/* </div> */}
               </a>
             </Link>
           </div>
@@ -34,7 +33,7 @@ export default function ProjectScreen() {
             <div className={`${styles.link} ml-1`}>
               <Link passHref href={'https://chat.piotrklebaniuk.pl'}>
                 <a target='blank'>
-                  <Image src={'/images/live.png'} alt='live version' width='30' height='30' />
+                  <Image src={'/images/live.png'} alt='live version' width='30' height='30' priority={true} />
                 </a>
               </Link>
             </div>
